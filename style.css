@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://static.ndmais.com.br/2020/01/av-mauro-ramos-transito-centro-de-florianopolis-Foto-Flavio-Tin-_MG_7633-22012020-800x533.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.button {
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+	font-size: 15px;
+    border: none;
+    color: seashell;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s all;
+    border-radius: 5px;
+    margin: 0 0 0 15px;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+#botaoVermelho {
+    background-color: red;
+
+}
+
+#botaoAmarelo {
+    background-color: yellow;
+}
+
+#botaoVerde {
+    background-color: green;
+}
+
+#botaoAutomatico {
+    background-color: rgb(84, 84, 177);
+}
